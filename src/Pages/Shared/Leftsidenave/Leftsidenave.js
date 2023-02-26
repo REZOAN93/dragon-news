@@ -15,7 +15,7 @@ const Leftsidenave = () => {
       <div>
         {categories.map((category) => (
           <p key={category.id}>
-            <Link to={`/category/${category.id}`}>{category.name}</Link>
+            <Link to={`/categories/${category.id}`}>{category.name}</Link>
           </p>
         ))}
       </div>
